@@ -14,7 +14,7 @@ public class FirstTest {
 		
 		
 		WebDriver driver;
-		System.setProperty("webdriver.chrome.driver", "usr/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("headless");
 		driver = new ChromeDriver(options);
