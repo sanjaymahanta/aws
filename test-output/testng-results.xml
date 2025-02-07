@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-05T00:31:25 IST" name="Default suite" finished-at="2025-01-05T00:31:25 IST" duration-ms="484">
+  <suite started-at="2025-02-05T15:23:22 IST" name="Default suite" finished-at="2025-02-05T15:23:22 IST" duration-ms="186">
     <groups>
     </groups>
-    <test started-at="2025-01-05T00:31:25 IST" name="Default test" finished-at="2025-01-05T00:31:25 IST" duration-ms="484">
+    <test started-at="2025-02-05T15:23:22 IST" name="Default test" finished-at="2025-02-05T15:23:22 IST" duration-ms="186">
       <class name="com.aws.FirstTest">
-        <test-method signature="openBrowser()[pri:0, instance:com.aws.FirstTest@130d63be]" started-at="2025-01-05T00:31:25 IST" name="openBrowser" finished-at="2025-01-05T00:31:25 IST" duration-ms="297" status="FAIL">
+        <test-method signature="openBrowser()[pri:0, instance:com.aws.FirstTest@130d63be]" started-at="2025-02-05T15:23:22 IST" name="openBrowser" finished-at="2025-02-05T15:23:22 IST" duration-ms="102" status="FAIL">
           <exception class="org.openqa.selenium.remote.NoSuchDriverException">
             <message>
               <![CDATA[Unable to obtain: chromedriver, error chromedriver must exist: \usr\bin\chromedriver
@@ -28,7 +28,7 @@ at org.openqa.selenium.chrome.ChromeDriver.generateExecutor(ChromeDriver.java:99
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:88)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:83)
 at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:72)
-at com.aws.FirstTest.openBrowser(FirstTest.java:21)
+at com.aws.FirstTest.openBrowser(FirstTest.java:20)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)

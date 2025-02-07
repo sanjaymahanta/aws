@@ -18,7 +18,7 @@ public class Slider {
 				@BeforeClass
 				
 			  public void initialization() throws InterruptedException {
-				  System.setProperty("webdriver.chrome.driver", "D:/chromedriver131.exe");
+				  System.setProperty("webdriver.chrome.driver", "D:/chromedriver132.exe");
 				  driver = new ChromeDriver();
 				  driver.get("https://www.flipkart.com/");
 				  driver.manage().window().maximize();
